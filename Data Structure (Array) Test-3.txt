@@ -1,0 +1,66 @@
+1: Which of the following is not an application of sorted array?
+ans:Hash Tables
+
+2: What is the worst case time complexity of inserting an element into the sorted array?
+ans:O(n)
+
+3: What is a sparse array?
+ans:An array in which most of the elements have the same value
+
+4: When do you use a sparse array?
+ans:When the array has more occurrence of zero elements
+
+5: What is the difference between a normal(naive) array and a sparse array?
+ans:Sparse array is memory efficient
+
+6: Suppose the contents of an array A are, A = {1, null, null, null, null, 10};
+What would be the size of the array considering it as a normal array and a sparse array?
+ans:6 and 2
+
+7: What is sparsity of a matrix?
+ans:The fraction of zero elements over the total number of elements
+
+8: Which of the following is the disadvantage of sparse matrices over normal matrices?
+ans:Algorithm complexity
+
+9: Which of the following is false?
+ans:Suffix array is always unsorted
+
+10: Suffix array of the string "statistics" is ____________
+ans:2 8 7 4 9 0 5 1 6 3
+
+11: Suffix array can be created by performing __________ traversal of a suffix tree.
+ans:depth-first
+
+12: If comparison based sorting algorithm is used construct the suffix array, then what will be time required to construct the suffix array?
+ans:O(n2logn)
+
+13: What will be the suffix array of the string "engineering"?
+ans:5 0 6 10 2 3 8 4 9 1 7
+
+14: LCP array and ______ is used to construct suffix tree.
+ans:Suffix array
+
+15: What is the time required to locate the occurrences of a pattern P of length m in a string of length n using suffix array?
+ans:O(mlogn)
+
+16: Which of the following is/are advantages suffix array one suffix tree?
+I. Lesser space requirement
+II. Improved cache locality
+III. Easy construction in linear time
+ans:All I, II and III
+
+17: What is the order of a matrix?
+ans:number of rows X number of columns
+
+18: Which of the following property does not hold for matrix multiplication?
+ans:Commutative
+
+19: How do you allocate a matrix using a single pointer in C?(r and c are the number of rows and columns respectively)
+ans:int *arr = (int *)malloc(r * c * sizeof(int));
+
+20: If row-major order is used, how is the following matrix stored in memory?
+a b c
+d e f
+g h i
+ans:abcdefghi

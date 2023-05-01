@@ -1,0 +1,59 @@
+1: Which of these best describes an array?
+ans:Container of objects of similar types
+
+2: How do you initialize an array in C?
+ans:int arr[3] = {1,2,3};
+
+3: How do you instantiate an array in Java?
+ans:int arr[] = new int[3];
+
+4: Which of the following is the correct way to declare a multidimensional array in Java?
+ans:int[][]arr;
+
+5: When does the ArrayIndexOutOfBoundsException occur?
+ans:Run-time
+
+6: Which of the following concepts make extensive use of arrays?
+ans:Spatial locality
+
+7: What are the advantages of arrays?
+ans:Easier to store elements of same data type
+
+8: What are the disadvantages of arrays?
+ans:There are chances of wastage of memory space if elements inserted in an array are lesser than the allocated size
+
+9: Assuming int is of 4bytes, what is the size of int arr[15];?
+ans:60
+
+10: In general, the index of the first element in an array is __________
+ans:0
+
+1: Elements in an array are accessed _____________
+ans:randomly
+
+12: What is a bit array?
+ans:Data structure that compactly stores bits
+
+13: Which of the following bitwise operations will you use to set a particular bit to 1?
+ans:OR
+
+14: Which of the following bitwise operations will you use to set a particular bit to 0?
+ans:AND
+
+15: Which of the following bitwise operations will you use to toggle a particular bit?
+ans:XOR
+
+16: Which of the following is not an advantage of bit array?
+ans:Accessing Individual Elements is easy
+
+17: Which of the following is not a disadvantage of bit array?
+ans:Storing and Manipulating in the register set for long periods of time
+
+18: Which of the following is/are not applications of bit arrays?
+ans:Implementation of Vectors and Matrices
+
+19: Which class in Java can be used to represent bit array?
+ans:BitSet
+
+20: Which of the following bitwise operator will you use to invert all the bits in a bit array?
+ans:NOT
